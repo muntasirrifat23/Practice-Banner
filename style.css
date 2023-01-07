@@ -36,7 +36,7 @@
     direction: rtl;
 }
 .btn-head{
-    margin-top: 620px;
+    margin-top: 650px;
     margin-left: 1250px;
     height: 60px;
     width: 150px;
@@ -78,11 +78,24 @@
     font-size: 17px;
     font-weight: 500;
 }
+.ul-t{
+    text-decoration: none;
+}
+.ul-des{
+    margin-top: 5px;
+    color:rgb(100, 81, 81)
+}
+.fa-solid{
+    color: green;
+}
 /* Failour */
 
 .plan{
     height: 300px;
-    width: 1200px;
+}
+.a{
+    display: flex;
+    justify-content: center;
 }
 .s-title{
     text-align: center;
@@ -111,32 +124,33 @@
     color: rgb(69, 60, 60);
     text-align: center;
 }
-/* Another image */
+/* New Image Add */
 .another-img{
+    background: linear-gradient(90deg, #cb7655 0%, rgba(149, 16, 104, 0) 100%),url('watch.png');
     border-radius: 8px;
-    background-image: url('watch.png');
     background-repeat: no-repeat;
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 67%;
-    background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
-            linear-gradient(127deg, rgba(0, 255, 0, 0.996), rgba(0,255,0,0) 70.71%),
-            linear-gradient(336deg, rgba(77, 17, 80, 0.996), rgba(191, 255, 0, 0.922) 70.71%);
-            height:450px;
-            width: 1200px;
+    margin-top: 50px;
+    height:290px;
+    width: 1000px;
 }
 
-.watch{
-    margin-top: 50px;
+.w-titile{
+    color: white;
+    margin-left: 40px;
     font-size:40px ;
     height: 60px;
     width: 480px;
+    background-size:450px 1200px;
 }
 .call{
-    margin-bottom: 40px;
-    margin-top: 200px;
-    margin-left: 20px;
+    border-radius: 5px;
+    font-size: 30px;
+    margin-top: 130px;
+    margin-left: 40px;
     position: relative;
     display: inline-block;
     background-color: gold;
@@ -146,11 +160,20 @@
     height: 80px;
     width: 150px;
     justify-content:left;
+    background-color: white;
+    color: orange;
 }
-/* Foter */
+/* Foter  start*/
+
+.r{
+    display:flex ;
+    justify-content: space-between;
+}
 .footer-content{
+   
     height: 290px;
     width: 1600;
+    color: white;
     background-color: black;
 }
 .f-title{
@@ -167,13 +190,61 @@
     margin-left: 60px;
     text-decoration: none;
     margin-top: 10px;
-    margin-bottom: 15px;
+    margin-bottom: 40px;
 }
-.form-details{
-    margin-top: 40px;
+.email-tag{
     margin-left: 60px;
-    border: none;
+    text-decoration: none;
+    color: white;
+}
+.icon-footer{
+    margin-top: 20px;
+    margin-left: 55px;
+}
+.f-icon{ 
+    margin: 10px;
+}
+.phone{
+   margin-left: 60px; 
+   margin-top: 10px;
+}
+/* Form */
+
+.form-title{
+    text-align: right;
+    margin-right: 280px;
     text-decoration: none;
     padding: 3px;
-    color:black
+    color: black;
+}
+.f-btn{
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px;
+    color: darkorange;
+    font-size: 20px;
+    margin-top: 5px;
+    height: 60px;
+    width: 140px;
+    margin-right: 152px;
+    
+}
+.eml{
+    background-color: black;
+    color: white;
+    padding: 15px;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    text-align: left;
+    padding: 5px;
+    color: darkorange;
+    font-size: 20px;
+    margin-top: 5px;
+    height: 60px;
+    width: 280px;
+}
+.subs{
+    font-size: 30px;
 }
