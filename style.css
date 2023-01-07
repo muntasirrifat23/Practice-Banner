@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+}
+.head{
+    width: 1550px;
+    height: 800px;
+    top: 800px;
+    background-image: url('banner1.png');
+
+}
+.head-title{
+    color: black;
+    text-align: right;
+    width: 500px;
+    height: 250px;
+    margin-left: 900px;
+    margin-top: 180px;
+    position: absolute;
+    font-size: 70px;
+    font-weight: 800px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+}
+.head-sub{
+    text-align:right;
+    position: absolute;
+    width: 500px;
+    height: 90px;
+    margin-left: 900px;
+    margin-top: 520px;
+    font-size: 20px;
+    font-weight: 300;
+    font-style: normal;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(57, 51, 51);
+    direction: rtl;
+}
+.btn-head{
+    margin-top: 620px;
+    margin-left: 1250px;
+    height: 60px;
+    width: 150px;
+    background-color: orange;
+    border-radius:10px;
+    font-size: 20px; 
+    padding: 5px; 
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+/* Header END */
+.description{
+    display: flex;
+}
+.description-img{
+    height: 700px;
+    width: 500px;
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 100px;
+}
+.description-p{
+    height: 400px;
+    width: 400px;
+    margin-top:300px;
+    margin-left: 900px;
+}
+.description-titile{
+    height: 100px;
+    width: 300px;
+    font-size: 40px;
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+.description-subt{
+    height: 100px;
+    width: 400px;
+    font-size: 17px;
+    font-weight: 500;
+}
+/* Failour */
+
+.plan{
+    height: 300px;
+    width: 1200px;
+}
+.s-title{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+}
+/* Skill Start */
+.skill-content{
+    display: flex;
+    gap: 5px;
+}
+.skill-title{
+    font-size: 20px;
+    font-style: normal;
+}
+.skill{
+    justify-content: space-between;
+    text-align: center;
+    margin-right: 140px;
+    margin-left:80px;
+}
+.skill-des{
+    color: rgb(69, 60, 60);
+    text-align: center;
+}
+/* Another image */
+.another-img{
+    border-radius: 8px;
+    background-image: url('watch.png');
+    background-repeat: no-repeat;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 67%;
+    background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+            linear-gradient(127deg, rgba(0, 255, 0, 0.996), rgba(0,255,0,0) 70.71%),
+            linear-gradient(336deg, rgba(77, 17, 80, 0.996), rgba(191, 255, 0, 0.922) 70.71%);
+            height:450px;
+            width: 1200px;
+}
+
+.watch{
+    margin-top: 50px;
+    font-size:40px ;
+    height: 60px;
+    width: 480px;
+}
+.call{
+    margin-bottom: 40px;
+    margin-top: 200px;
+    margin-left: 20px;
+    position: relative;
+    display: inline-block;
+    background-color: gold;
+    box-shadow: 5px;
+    padding: 5px;
+    border: none;
+    height: 80px;
+    width: 150px;
+    justify-content:left;
+}
+/* Foter */
+.footer-content{
+    height: 290px;
+    width: 1600;
+    background-color: black;
+}
+.f-title{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 80px;
+    margin-top: 80px;
+    margin-left: 60px;
+}
+.f-des{
+    color: white;
+    height: 30px;
+    width: 360px;
+    margin-left: 60px;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.form-details{
+    margin-top: 40px;
+    margin-left: 60px;
+    border: none;
+    text-decoration: none;
+    padding: 3px;
+    color:black
+}
