@@ -20,6 +20,7 @@
     font-weight: 800px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-style: normal;
+    direction: rtl;
 }
 .head-sub{
     text-align:right;
